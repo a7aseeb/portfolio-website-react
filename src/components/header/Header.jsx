@@ -1,5 +1,9 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import ME from "../../assets/my-photo.png"
+import HeaderSocials from './HeaderSocials';
+import './header.css'
 
 
 
@@ -12,14 +16,14 @@ const Header = () => {
           <h5> Hello I'm </h5>
           <h1>Abdul Haseeb</h1>
           <h5 className="text-light">Fullstack Developer</h5>
-          <a href=""><FaGithub/></a><a href=""><FaGithub/></a>
+          <HeaderSocials/>
         </div>
-        <div className="photo__container">
-        
 
+        <div className="photo__container">
+          <img src={ME} alt="me" />
         </div>
         
-        
+        <a href="#contact" className='scroll__down'>Scroll down</a>
 
       </div>
     </header>
