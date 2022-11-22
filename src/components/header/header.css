@@ -13,7 +13,16 @@ header {
    justify-content: space-between;
 }
 
-/* Header socials*/
+.profile__container {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   padding: 1rem;
+   justify-content: space-evenly;
+
+}
+
+/*========= Header socials* =========*/
 
 .header__socials{
    display: flex;
@@ -32,3 +41,66 @@ header {
    height: 2rem;
    background: var(--color-primary);
 } */
+
+
+/*========= Header socials* =========*/
+
+.photo__container {
+   background: linear-gradient(var(--color-primary), transparent);
+   width: 22rem;
+   height: 23rem;
+   /* position: absolute; */
+   /* left: calc(50% - 0.5rem); */
+   margin-top: 2rem;
+   border-radius: 12rem 12rem 0 0;
+   padding: 1rem 0 0 0;
+}
+
+
+/*========= Header socials* =========*/
+
+.scroll__down {
+   position: absolute;
+   right: -2.3rem;
+   bottom: 5rem;
+   transform: rotate(90deg);
+   font-weight: 300;
+   font-size: 0.9rem;
+}
+
+/* MEDIA QUERIES ==== MEDIUM DEVICES */
+@media screen and (max-width: 1074px) {
+
+   header {
+      height: 68vh;
+
+   }
+
+   .header__container {
+      background: red;
+   }
+
+   
+}
+
+/* MEDIA QUERIES ==== SMALL DEVICES */
+@media screen and (max-width: 600px) {
+
+   .header__container {
+      background: yellow;
+   }
+
+   header {
+      height: 100vh;
+      
+   }
+
+   .header__socials, .scroll__down {
+      display: none;
+   }
+
+   .profile__container {
+      flex-direction: column;
+   }
+   
+}
