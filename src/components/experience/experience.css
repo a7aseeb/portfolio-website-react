@@ -1,16 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-/* ===========MUI STYLING =================*/
 
-.MuiTypography-root {
-   font-family: 'Poppins', sans-serif;
-   /* color: var(--color-white); */
-}
-
-.MuiTypography-paragraph {
-   font-weight: 300;
-}
-
-.MuiAccordion-root {
+.experience__container > div {
    background: var(--color-bg-variant);
+   padding: 2.4rem 5rem;
+   border-radius: 2rem;
+   border: 1px solid transparent;
 }
+
+.experience__skills {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.skill__content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   row-gap: 2rem;
+   column-gap: 8rem;
+}
+
+.skill__details {
+   display: flex;
+   gap: 0.5rem;
+   flex-direction: column;
+}
+
+
