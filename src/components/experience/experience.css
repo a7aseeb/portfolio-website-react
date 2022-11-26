@@ -19,10 +19,60 @@
    column-gap: 8rem;
 }
 
+.skill__content2 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   row-gap: 2rem;
+   column-gap: 4rem;
+}
+
+.skill__content3 {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+}
+
 .skill__details {
    display: flex;
    gap: 0.5rem;
    flex-direction: column;
+}
+
+
+/* MEDIA QUERIES ==== MEDIUM DEVICES */
+@media screen and (max-width: 1074px) {
+
+   .experience__container {
+      grid-template-columns: 1fr;
+
+   }
+
+   .experience__container > div {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+   }
+
+   .skill__content {
+      padding: 1rem;
+   }
+   
+}
+
+/* MEDIA QUERIES ==== SMALL DEVICES */
+@media screen and (max-width: 600px) {
+
+   .experience__container {
+      gap: 1rem;
+
+   }
+
+   .experience__container > div {
+      width: 100%;
+      padding: 2rem 1rem;
+   }
+   
+   
 }
 
 

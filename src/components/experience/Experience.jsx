@@ -71,27 +71,36 @@ const Experience = () => {
 
             <TabPanel value="2">
             <div className="experience__skills">
-                <div className="skill__content">
+                <div className="skill__content2">
                   <article className='skill__details'>
                     <BsCodeSlash />
-                    <h4>Computer programming & coding</h4>
+                    <h4>Angular</h4>
                     <small className='text-light'> Proficient in algorithms and coding techniques.</small>
 
                   </article>
                   <article className='skill__details'>
                     <BsCodeSlash />
-                    <h4>Software Developement</h4>
+                    <h4>ReactJs</h4>
                     <small className='text-light'> description of software development</small>
-                    
                   </article>
                   <article className='skill__details'>
                     <BsCodeSlash />
-                    <h4>Object Oriented Design (OOD)</h4>
+                    <h4>JavaScript</h4>
                     <small className='text-light'> Proficient in algorithms and coding techniques.</small>
                   </article>
                   <article className='skill__details'>
                     <BsCodeSlash />
-                    <h4>Software testing and debugging</h4>
+                    <h4>Typescript</h4>
+                    <small className='text-light'> Proficient in algorithms and coding techniques.</small>
+                  </article>
+                  <article className='skill__details'>
+                    <BsCodeSlash />
+                    <h4>NodeJS</h4>
+                    <small className='text-light'> Proficient in algorithms and coding techniques.</small>
+                  </article>
+                  <article className='skill__details'>
+                    <BsCodeSlash />
+                    <h4>GraphQL</h4>
                     <small className='text-light'> Proficient in algorithms and coding techniques.</small>
                   </article>
                 </div>
@@ -99,29 +108,18 @@ const Experience = () => {
             </TabPanel>
 
             <TabPanel value="3">
-            <div className="experience__skills">
-                <div className="skill__content">
+              <div className="experience__skills">
+                <div className="skill__content3">
                   <article className='skill__details'>
                     <BsCodeSlash />
-                    <h4>Computer programming & coding</h4>
-                    <small className='text-light'> Proficient in algorithms and coding techniques.</small>
-
+                    <h4>Bachelor's of Engineering in Information Technology</h4>
+                    <small className='text-light'> Osmania University</small>
                   </article>
                   <article className='skill__details'>
                     <BsCodeSlash />
-                    <h4>Software Developement</h4>
-                    <small className='text-light'> description of software development</small>
+                    <h4>Highschool</h4>
+                    <small className='text-light'>Intl' Indian School, Jeddah, Saudi Arabia</small>
                     
-                  </article>
-                  <article className='skill__details'>
-                    <BsCodeSlash />
-                    <h4>Object Oriented Design (OOD)</h4>
-                    <small className='text-light'> Proficient in algorithms and coding techniques.</small>
-                  </article>
-                  <article className='skill__details'>
-                    <BsCodeSlash />
-                    <h4>Software testing and debugging</h4>
-                    <small className='text-light'> Proficient in algorithms and coding techniques.</small>
                   </article>
                 </div>
               </div>
