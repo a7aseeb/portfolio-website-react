@@ -1,20 +1,43 @@
 .portfolio__head {
-   display: grid;
-   grid-template-columns: 30% 70%;
-   transition: all 400ms ease-in-out;
-   gap: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 1rem;
 }
 
-.card__development {
+.card__development , .card__design {
    background: var(--color-bg-variant);
    border-radius: 3rem;
    padding: 5rem;
+   transition: var(--transition);
+   width: 50%;
+   cursor: pointer;
+   text-decoration: none;
+   color: white;
 }
 
 .card__design {
    background: var(--color-primary-variant);
-   justify-self: end;
+}
+
+.card__development:hover {
    width: 100%;
-   border-radius: 3rem;
-   padding: 5rem;
+}
+
+.card__design:hover {
+   width: 100%;
+}
+
+/* MEDIA QUERIES ==== MEDIUM DEVICES */
+@media screen and (max-width: 1074px) {
+
+  
+   
+}
+
+/* MEDIA QUERIES ==== SMALL DEVICES */
+@media screen and (max-width: 600px) {
+
+   
+   
 }

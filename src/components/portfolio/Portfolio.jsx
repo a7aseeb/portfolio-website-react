@@ -1,5 +1,6 @@
 import React from 'react'
 import './portfolio.css'
+import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
   return (
@@ -10,12 +11,16 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className='portfolio'>
           <div className="portfolio__head">
-            <div className="card__development">
-              development
-            </div>
-            <div className="card__design" style={{justifySelf: 'end'}}>
-              design
-            </div>
+          <Link className='card__development' to='/portfolio'>
+                <div >
+                  design
+                </div>
+              </Link>
+              <Link className='card__design' to='/portfolio'>
+                <div >
+                  design
+                </div>
+              </Link>
           </div>
         </article>
       </div>

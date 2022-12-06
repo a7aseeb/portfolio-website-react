@@ -75,20 +75,11 @@ header {
       height: 68vh;
 
    }
-
-   .header__container {
-      background: red;
-   }
-
    
 }
 
 /* MEDIA QUERIES ==== SMALL DEVICES */
 @media screen and (max-width: 600px) {
-
-   .header__container {
-      background: yellow;
-   }
 
    header {
       height: 100vh;
